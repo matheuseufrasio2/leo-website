@@ -9,9 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@chakra-ui/react": "^1.6.4",
-    "@emotion/react": "^11",
-    "@emotion/styled": "^11",
     "framer-motion": "^4",
     "next": "11.0.0",
     "react": "17.0.2",
@@ -25,6 +22,7 @@
     "@typescript-eslint/eslint-plugin": "^4.9.0",
     "@typescript-eslint/parser": "^4.9.0",
     "eslint": "7.28.0",
+    "eslint-config-next": "^11.0.1",
     "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-import-helpers": "^1.1.0",
