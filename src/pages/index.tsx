@@ -1,27 +1,32 @@
-import Head from 'next/head';
 import Image from 'next/image';
 
 import { Header } from '../components/Header';
+import SEO from '../components/SEO';
 import styles from './home.module.scss';
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Início | Verçoza Engenharia</title>
-      </Head>
+      <SEO title="Início" description="Página inicial" />
       <div className={styles.firstSection}>
         <Image
           className={styles.imageBackground}
           alt="Placas solares"
-          src="/images/background-01.jpg"
+          src="/images/solar.jpg"
           layout="fill"
           objectFit="cover"
           objectPosition="center"
           quality={100}
         />
         <Header />
-        <p className={styles.teste}>Maeu oppkj</p>
+        <section className={styles.welcomeWords}>
+          <h1>DEMOCRATIZANDO O ACESSO à ENERGIA SOLAR.</h1>
+          <p>
+            Ajudamos a disseminar essa tecnologia, colaboramos para que você
+            possa gerar sua própria energia por meio de uma fonte sustentável,
+            inesgotável e renovável, o Sol.
+          </p>
+        </section>
       </div>
     </>
   );
