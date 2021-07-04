@@ -1,0 +1,13 @@
+.container {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  > div {
+    max-width: 1200px;
+    flex: 1;
+  }
+}
