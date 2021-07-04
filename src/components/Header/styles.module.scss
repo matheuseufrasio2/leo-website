@@ -6,7 +6,6 @@
   align-items: center;
   justify-content: space-between;
   height: 6rem;
-  padding: 0 0.5rem;
 }
 
 .header {
@@ -17,6 +16,8 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  padding: 0 0.5rem;
+
 
   > img {
     width: 20%;
