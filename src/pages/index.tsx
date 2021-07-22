@@ -2,6 +2,7 @@ import { FaWhatsapp } from 'react-icons/fa';
 
 import Image from 'next/image';
 
+import { BudgetSection } from '../components/BudgetSection';
 import { Header } from '../components/Header';
 import SEO from '../components/SEO';
 import styles from './home.module.scss';
@@ -39,6 +40,7 @@ export default function Home() {
           </p>
         </section>
       </div>
+      <BudgetSection />
     </>
   );
 }

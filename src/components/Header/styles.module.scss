@@ -28,11 +28,14 @@
   }
 
   @media(max-width: 978px) {
+    >img {
+      width: 45%;
+    }
     > button {
       display: inline;
       background-color: transparent;
       border: 0;
-      font-size: 2rem;
+      font-size: 2.75rem;
       color: var(--gray-100);
     }
   }
@@ -51,6 +54,8 @@
     }
 
     &:hover {
+      color: var(--orange-100);
+      text-decoration: underline;
       filter: brightness(0.8);
     }
   }
