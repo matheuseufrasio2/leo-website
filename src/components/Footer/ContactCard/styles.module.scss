@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+
+  padding: 1rem;
+
+  > p {
+    margin-top: 1rem;
+  }
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+
+  padding-bottom: 1rem;
+  border-bottom: 1px solid white;
+
+  @media(max-width: 768px) {
+    width: 50%;
+  }
+
+  p {
+    margin-left: 0.5rem;
+  }
+}

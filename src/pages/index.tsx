@@ -3,6 +3,7 @@ import { FaWhatsapp } from 'react-icons/fa';
 import Image from 'next/image';
 
 import { BudgetSection } from '../components/BudgetSection';
+import { Footer } from '../components/Footer';
 import { Header } from '../components/Header';
 import SEO from '../components/SEO';
 import styles from './home.module.scss';
@@ -32,7 +33,7 @@ export default function Home() {
         />
         <Header />
         <section className={styles.welcomeWords}>
-          <h1>DEMOCRATIZANDO O ACESSO à ENERGIA SOLAR.</h1>
+          <h1>DEMOCRATIZANDO O ACESSO À ENERGIA SOLAR.</h1>
           <p>
             Ajudamos a disseminar essa tecnologia, colaboramos para que você
             possa gerar sua própria energia por meio de uma fonte sustentável,
@@ -41,6 +42,7 @@ export default function Home() {
         </section>
       </div>
       <BudgetSection />
+      <Footer />
     </>
   );
 }

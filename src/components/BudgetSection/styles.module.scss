@@ -30,6 +30,24 @@
     @media(max-width: 768px) {
       padding: 0;
     }
+
+    > button {
+      padding: 1rem;
+      border: 0;
+      border-radius: 7px;
+      margin-top: 1rem;
+      align-self: center;
+
+      background-color: var(--orange-100);
+
+      width: 95%;
+      font-size: large;
+      font-weight: 700;
+
+      @media(max-width: 768px) {
+        width: 90%;
+      }
+    }
   }
 }
 

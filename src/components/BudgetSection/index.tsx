@@ -22,6 +22,14 @@ export function BudgetSection() {
           name="message"
           id="message"
         />
+        <button
+          type="button"
+          onClick={() => {
+            alert('clicked');
+          }}
+        >
+          Enviar
+        </button>
       </form>
     </div>
   );
