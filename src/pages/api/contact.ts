@@ -16,7 +16,7 @@ export default function (req: NextApiRequest, res: NextApiResponse<Data>) {
     host: 'smtp.gmail.com',
     auth: {
       user: 'enviadordecontatos@gmail.com',
-      pass: 'Leonardo2021',
+      pass: process.env.PASSWORD_EMAIL_ENVIADOR,
     },
     secure: true,
   });
