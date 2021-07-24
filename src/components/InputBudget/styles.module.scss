@@ -1,8 +1,16 @@
 .container {
   width: 90%;
   margin: 0 auto;
+  
+  > input {
+    padding: 1rem;
+    width: 100%;
+    border: 0;
+    border-radius: 7px;
+  }
 
-  padding: 1rem;
-  border: 0;
-  border-radius: 7px;
+  > span {
+    font-size: 0.8rem;
+    color: #d10404;
+  }
 }
