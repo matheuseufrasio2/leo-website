@@ -1,5 +1,4 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { resolve } from 'path';
 
 interface Data {
   name: string;
@@ -23,8 +22,8 @@ export default function (req: NextApiRequest, res: NextApiResponse<Data>) {
 
   const mailData = {
     from: 'enviadordecontatos@gmail.com',
-    // to: 'matheuseufrasio2@gmail.com',
-    to: ['leonardobvercoza@gmail.com', 'matheuseufrasio2@gmail.com'],
+    to: 'matheuseufrasio2@gmail.com',
+    // to: ['leonardobvercoza@gmail.com', 'matheuseufrasio2@gmail.com'],
     subject: `Nova mensagem no site de: ${req.body.name}`,
     text: req.body.message,
     html: `<div>
@@ -35,12 +34,15 @@ export default function (req: NextApiRequest, res: NextApiResponse<Data>) {
             <p>Mensagem: ${req.body.message}</p>
            </div>`,
   };
-
   transporter.sendMail(mailData, function (err: any, info: any) {
-    if (err) console.log(err);
-    else console.log(info);
+    if (err) {
+      console.log(err);
+      res.status(400).json(req.body);
+    } else {
+      console.log(info);
+      res.status(200).json(req.body);
+    }
   });
 
-  res.status(200).json(req.body);
   // res.status(200).json({ name: 'John Doe' });
 }
