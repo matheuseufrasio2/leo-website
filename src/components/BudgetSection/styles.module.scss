@@ -43,6 +43,11 @@
       width: 95%;
       font-size: large;
       font-weight: 700;
+      transition: all 0.2s;
+
+      &:hover {
+        filter: brightness(0.92);
+      }
 
       @media(max-width: 768px) {
         width: 90%;

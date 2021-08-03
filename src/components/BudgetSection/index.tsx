@@ -52,7 +52,7 @@ export function BudgetSection() {
   }
 
   return (
-    <div className={styles.container}>
+    <div id="contact" className={styles.container}>
       <h1>Quer economizar de verdade?</h1>
       <p>
         Preencha o formulário abaixo que entraremos em contato em até 24 horas

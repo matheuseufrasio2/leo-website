@@ -18,7 +18,7 @@ export function Footer() {
           <ContactCard
             icon={FiPhoneCall}
             title="Telefone"
-            info="(86) 99924-9627"
+            info="(86) 99924-9627 - (98) 98600-4240"
           />
           <ContactCard
             icon={FiMail}
@@ -33,14 +33,14 @@ export function Footer() {
         </div>
         <div className={styles.socialMedias}>
           <a
-            href="https://api.whatsapp.com/send?phone=5586999249627&text=Ol%C3%A1%2C%20vim%20pelo%20site%2C%20gostaria%20de%20receber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20produto!"
+            href="https://api.whatsapp.com/message/JHSRWTHZE3C6E1"
             target="_blank"
             rel="noreferrer"
           >
             <FaFacebook />
           </a>
           <a
-            href="https://api.whatsapp.com/send?phone=5586999249627&text=Ol%C3%A1%2C%20vim%20pelo%20site%2C%20gostaria%20de%20receber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20produto!"
+            href="https://api.whatsapp.com/message/JHSRWTHZE3C6E1"
             target="_blank"
             rel="noreferrer"
           >
@@ -54,7 +54,7 @@ export function Footer() {
             <FaInstagram />
           </a>
           <a
-            href="https://api.whatsapp.com/send?phone=5586999249627&text=Ol%C3%A1%2C%20vim%20pelo%20site%2C%20gostaria%20de%20receber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20produto!"
+            href="https://api.whatsapp.com/message/JHSRWTHZE3C6E1"
             target="_blank"
             rel="noreferrer"
           >

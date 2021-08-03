@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <a
-        href="https://api.whatsapp.com/send?phone=5586999249627&text=Ol%C3%A1%2C%20vim%20pelo%20site%2C%20gostaria%20de%20receber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20produto!"
+        href="https://api.whatsapp.com/message/JHSRWTHZE3C6E1"
         className={styles.float}
         target="_blank"
         rel="noreferrer"
@@ -24,7 +24,7 @@ export default function Home() {
         <Image
           className={styles.imageBackground}
           alt="Placas solares"
-          src="/images/solar.jpg"
+          src="/images/background-03.jpg"
           layout="fill"
           objectFit="cover"
           objectPosition="center"

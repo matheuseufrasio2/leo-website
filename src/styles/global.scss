@@ -39,6 +39,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: var(--gray-100);
   color: var(--white);
